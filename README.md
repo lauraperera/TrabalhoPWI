@@ -14,9 +14,9 @@
 
 ## Instalações
 - NPM
-`npm init`
+`$ npm init`
 - Express
-`npm install express --save`
+`$ npm install express --save`
 - EJS
-`npm install ejs --save`
+`$ npm install ejs --save`
 
