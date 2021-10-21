@@ -17,7 +17,7 @@ app.get("/login", function(req, res){
 })
 
 app.post("/login_realizado", function(req, res){
-    res.send(`Nome de usuário: ${req.body.usuario} <br> Email: ${req.body.email}`)
+    res.send(` Nome de usuário: ${req.body.usuario} <br> Email: ${req.body.email}`) //só p mostrar que as infos estao sendo recebidas
 })
 
 app.listen(port, function(){
